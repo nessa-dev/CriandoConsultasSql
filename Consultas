@@ -1,0 +1,34 @@
+-- -- Questão 1
+-- SELECT id, compositor
+-- FROM musicas;
+
+-- -- Questão 2
+-- SELECT composicao, tempo
+-- FROM musicas
+-- WHERE tempo > 4;
+
+-- -- Questão 3
+-- SELECT id, compositor, composicao
+-- FROM musicas
+-- where id BETWEEN 47 AND 123
+
+-- -- Questão 4
+-- Select * from musicas
+-- where compositor is not null
+-- and tempo < 300
+-- and compositor != 'Bach';
+
+-- Questão 5
+-- select composicao, tempo
+-- from musicas
+-- where compositor in ('Mozart', 'Bach');
+
+-- Questão 6
+-- select * from musicas
+-- order by id desc;
+
+--Questão 7
+-- select * from musicas
+-- order by tempo DESC;
+
+-- Questão 8
